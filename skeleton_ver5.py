@@ -133,7 +133,7 @@ if uploaded_file is not None:
             width=700,
             height=800,
             pages_to_render=[st.session_state.current_page],
-            key="pdf_viewer" 
+            key=f"pdf_viewer_page_{st.session_state.current_page}"
         )
 
     # [Left] Chat Interface
